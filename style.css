@@ -1,9 +1,8 @@
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -12,9 +11,10 @@ body {
   padding: 20px; 
   min-height: 100vh;
 }
+
 section {
   align-content: center;
-  background-color: #e2d5c9;
+  background-color: #add8e6; /* Light pastel blue */
   padding: 4rem;
   width: 100%;
   max-width: 1200px;
@@ -60,9 +60,8 @@ ul li {
   border-radius: 5px;
 }
 
-
 a {
-  color:black;
+  color: black;
   text-decoration: none;
   font-weight: bold;
 }
@@ -82,6 +81,7 @@ dl dd {
   margin-left: 1.5rem;
   color: #666;
 }
+
 blockquote {
   font-style: italic;
   color: #221c1c;
@@ -89,30 +89,35 @@ blockquote {
   padding-left: 1rem;
   margin-top: 2rem;
 }
+
 @media (max-width: 600px) {
   section {
-      padding: 1.5rem;
+    padding: 1.5rem;
   }
 
   header {
-      padding: 1.5rem;
+    padding: 1.5rem;
   }
 }
-.first{
-  text-align:justify;
-text-justify:inter-word;
+
+.first {
+  text-align: justify;
+  text-justify: inter-word;
 }
-.new{
+
+.new {
   color: #555;
 }
+
 .profile-pic {
   width: 150px;
   height: 150px;
-  border-radius: 50%;  
+  border-radius: 50%;
   object-fit: cover;
   border: 3px solid rgb(231, 216, 216);
 }
-.team-container{
+
+.team-container {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -123,28 +128,28 @@ text-justify:inter-word;
   font-size: 1.2rem;
   font-weight: bold;
 }
+
 #meet {
   font-family: 'Cinzel', serif;
   font-size: 2rem;
   font-weight: bold;
-  text-align: center; 
-  color: #ffffff; 
-  background-color: #7c4caf; 
-  padding: 1rem 2rem; 
-  border-radius: 10px; 
+  text-align: center;
+  color: #ffffff;
+  background-color: #7c4caf;
+  padding: 1rem 2rem;
+  border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  margin: 2rem auto; 
-  width: fit-content; 
+  margin: 2rem auto;
+  width: fit-content;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #meet:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   background-color: #388e3c;
-  cursor: pointer; 
+  cursor: pointer;
 }
-
 
 .navbar {
   position: sticky;
@@ -159,6 +164,7 @@ text-justify:inter-word;
   justify-content: center;
   justify-content: space-between;
 }
+
 .nav-list {
   list-style: none;
   display: flex;
@@ -166,7 +172,6 @@ text-justify:inter-word;
   align-content: center;
   margin: 0;
   padding: 0;
-  
 }
 
 .nav-list li {
@@ -184,8 +189,8 @@ text-justify:inter-word;
 
 .nav-list a:hover {
   background-color: #d381e9;
-  transform: scale(1.02);  
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);  
+  transform: scale(1.02);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
   transition: transform 0.2s, box-shadow 0.2s;
   border-radius: 4px;
 }
@@ -196,48 +201,48 @@ text-justify:inter-word;
   line-height: 1.6;
 }
 
-
-
 .team-container {
   display: flex;
-  flex-direction: column;   
-  align-items: center;    
-  max-width: 800px;      
-  margin: 0 auto;         
-  padding: 20px;        
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .team-member {
-  display: flex;         
-  align-items: center;   
-  margin: 15px 6;         
-  text-align: left;       
-  width: 100%;           
+  display: flex;
+  align-items: center;
+  margin: 15px 6;
+  text-align: left;
+  width: 100%;
 }
 
 .profile-pic {
-  width: 100px;           
-  height: 100px;          
-  border-radius: 50%;    
-  margin-right: 15px;     
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 15px;
 }
 
 .member-info {
   display: flex;
-  flex-direction: column;  
-  justify-content: center; 
-  max-width: 500px;        
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
 }
 
 .case-study a {
-  color: #007BFF;         
-  text-decoration: none;  
-  font-size: 0.9rem;  }     
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
 
 .case-study a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
-section .discription{
+section .discription {
   align-content: center;
   background-color: #181414;
   padding: 4rem;
@@ -248,57 +253,59 @@ section .discription{
   margin-left: 1%;
   margin-top: 3px;
 }
+
 h4.dis {
-  font-family: 'Georgia', 'Times New Roman', Times, serif; /* Updated font family */
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
   background-color: #e8d2df;
   color: #333;
-  display: inline-block; 
+  display: inline-block;
   padding: 1rem 1.5rem;
   margin: 1rem 0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   line-height: 1.6;
 }
+
 .custom-link {
   font-family: 'Playfair Display', serif;
-  text-decoration: none; 
+  text-decoration: none;
   color: #1f1c1c;
   display: inline-block;
   padding: 0.8rem 1.2rem;
-  border-radius: 8px; 
+  border-radius: 8px;
   background-color: #f8f9fa;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease; 
-  margin-bottom: 1rem; 
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
 }
 
 .custom-link:hover {
   background-color: #ffd54f;
   color: #212529;
-  transform: scale(1.05); 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .link-section {
-  margin-bottom: 1rem; 
-  text-align: center; 
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .team-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
-  gap: 1.5rem; 
-  margin-top: 2rem; 
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .team-member {
-  background-color: #f8f9fa; 
-  border-radius: 10px; 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-  padding: 1rem; 
-  width: 250px; 
-  text-align: center; 
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
@@ -307,14 +314,14 @@ h4.dis {
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 .member-info .name {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #0d0b0b; 
+  color: #0d0b0b;
 }
 
 .member-info .usn,
@@ -325,66 +332,10 @@ h4.dis {
 }
 
 .member-info .case-study a {
-  text-decoration: none; 
-  color: #007bff; 
+  text-decoration: none;
+  color: #007bff;
   font-weight: bold;
-  transition: color 0.3s ease; 
+  transition: color 0.3s ease;
 }
 
-.member-info .case-study a:hover {
-  color: #0056b3; 
-}
-
-.team-member:hover {
-  transform: scale(1.05); 
-  background-color: #e9ecef; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
-}
-.team-member:hover .profile-pic {
-  border: 2px solid #4f5a66; 
-}
-h2 {
-  font-family: 'Montserrat', sans-serif; 
-  font-size: 2rem;
-  font-weight: bold; 
-  text-align: center; 
-  color: rgb(34, 34, 211);
-  margin: 1rem auto; 
-  width: fit-content;
-  border: 2px solid rgb(34, 34, 211);
-  padding: 0.5rem 1rem; 
-  border-radius: 10px; 
-  background-color: #f4f8ff; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
-}
-
-h2:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
-  background-color: #e0e8ff;
-  cursor: pointer;
-}
-
-.find a {
-  font-family: 'Montserrat', sans-serif; 
-  font-size: 1.2rem; 
-  font-weight: 600; 
-  color: rgb(34, 34, 211); 
-  text-decoration: none; 
-  background-color: #f4f8ff; 
-  padding: 0.5rem 1rem; 
-  border-radius: 10px; 
-  display: inline-block;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease; 
-  margin: 0.5rem 0; 
-}
-
-.find a:hover {
-  background-color: rgb(111, 34, 211); 
-  color: #ffffff; 
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
-  transform: scale(1.05); 
-}
+.member-info .case-study
