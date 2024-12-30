@@ -3,49 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Introduction</title>
+    <title>Course Introduction: Design and Analysis of Algorithms</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background-color: #ffffff;
             color: #333;
         }
         h2 {
-            background-color: #007BFF;
+            background-color: #0056b3;
             color: white;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
+            margin: 0;
         }
         .course-content {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
         p, ul, ol {
-            line-height: 1.6;
+            line-height: 1.8;
         }
         ul, ol {
-            margin-left: 20px;
+            margin-left: 25px;
         }
         ul li, ol li {
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
         .section-title {
-            font-size: 1.2em;
+            font-size: 1.3em;
             font-weight: bold;
-            color: #007BFF;
-            margin-top: 20px;
+            color: #0056b3;
+            margin-top: 25px;
         }
         .section-content {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
         .highlight {
-            color: #d9534f;
+            color: #5d4fd9;
             font-weight: bold;
         }
     </style>
@@ -55,15 +56,15 @@
     <h2>Course Introduction: Design and Analysis of Algorithms</h2>
 
     <div class="course-content">
-        <p>The course <strong>"Design and Analysis of Algorithms"</strong> focuses on the fundamental concepts of designing, analyzing, and selecting algorithms to solve complex problems efficiently. Below are the key components and areas of study:</p>
+        <p>The course <strong>"Design and Analysis of Algorithms"</strong> delves into the core principles of algorithm design, analysis, and selection to address complex problems efficiently. The following are the primary topics covered:</p>
 
         <div class="section">
-            <p class="section-title">1. Understanding Algorithm Design and Analysis:</p>
+            <p class="section-title">1. Algorithm Design and Analysis:</p>
             <div class="section-content">
                 <ul>
-                    <li>Learn how to design algorithms to solve problems.</li>
-                    <li>Measure the performance of algorithms and assess their efficiency.</li>
-                    <li>Understand the trade-offs involved in selecting the most suitable algorithm for a given task.</li>
+                    <li>Develop algorithms to solve computational problems, focusing on creating step-by-step procedures to achieve desired outcomes.</li>
+                    <li>Evaluate algorithm performance and efficiency using Big O notation, which helps in understanding the time and space complexity.</li>
+                    <li>Analyze trade-offs in algorithm selection for specific tasks, considering factors such as execution time, memory usage, and ease of implementation.</li>
                 </ul>
             </div>
         </div>
@@ -71,44 +72,44 @@
         <div class="section">
             <p class="section-title">2. Sorting Algorithms:</p>
             <div class="section-content">
-                <p>Study various sorting techniques, including:</p>
+                <p>Examine various sorting techniques, including:</p>
                 <ul>
-                    <li><span class="highlight">Bubble Sort</span></li>
-                    <li><span class="highlight">Insertion Sort</span></li>
-                    <li><span class="highlight">Selection Sort</span></li>
-                    <li><span class="highlight">Quick Sort</span></li>
-                    <li><span class="highlight">Merge Sort</span></li>
-                    <li><span class="highlight">Heap Sort</span></li>
+                    <li><span class="highlight">Bubble Sort</span>: A simple comparison-based algorithm where each pair of adjacent elements is compared and swapped if they are in the wrong order.</li>
+                    <li><span class="highlight">Insertion Sort</span>: Builds the final sorted array one item at a time, with the assumption that the initial part of the array is already sorted.</li>
+                    <li><span class="highlight">Selection Sort</span>: Divides the input list into two parts: a sorted sublist of items which is built up from left to right and a sublist of the remaining unsorted items.</li>
+                    <li><span class="highlight">Quick Sort</span>: An efficient, comparison-based, divide-and-conquer algorithm that works by selecting a 'pivot' element and partitioning the array around the pivot.</li>
+                    <li><span class="highlight">Merge Sort</span>: A divide-and-conquer algorithm that divides the array into halves, sorts them, and then merges them back together.</li>
+                    <li><span class="highlight">Heap Sort</span>: A comparison-based sorting technique based on a binary heap data structure, which is an almost complete binary tree.</li>
                 </ul>
-                <p>These algorithms are essential for organizing and processing data in a specific order, which is critical in many computational tasks.</p>
+                <p>These algorithms are crucial for data organization and processing in a specified order, which is vital for numerous computational tasks such as searching, merging, and data analysis.</p>
             </div>
         </div>
 
         <div class="section">
             <p class="section-title">3. String Search Algorithms:</p>
             <div class="section-content">
-                <p>Explore algorithms used for pattern searching in strings, such as:</p>
+                <p>Investigate algorithms for pattern searching within strings, such as:</p>
                 <ul>
-                    <li><span class="highlight">Boyer-Moore</span></li>
-                    <li><span class="highlight">Rabin-Karp</span></li>
-                    <li><span class="highlight">Knuth-Morris-Pratt (KMP)</span></li>
-                    <li><span class="highlight">Brute Force Approach</span></li>
+                    <li><span class="highlight">Boyer-Moore</span>: An efficient string searching algorithm that skips sections of the text to reduce the number of comparisons.</li>
+                    <li><span class="highlight">Rabin-Karp</span>: Uses hashing to find any one of a set of pattern strings in a text, with a rolling hash function to quickly update the hash value.</li>
+                    <li><span class="highlight">Knuth-Morris-Pratt (KMP)</span>: Utilizes the information gathered during the preprocessing phase to skip unnecessary comparisons in the search phase.</li>
+                    <li><span class="highlight">Brute Force Approach</span>: A straightforward method that checks for the presence of the pattern at every possible position in the text.</li>
                 </ul>
-                <p>These are useful for applications like text searching, matching DNA sequences, and document processing.</p>
+                <p>These algorithms are applicable in text searching, DNA sequence matching, and document processing, where efficient pattern matching is essential.</p>
             </div>
         </div>
 
         <div class="section">
             <p class="section-title">4. Graph Algorithms:</p>
             <div class="section-content">
-                <p>Study algorithms used to find the shortest paths or minimum spanning trees in networks, including:</p>
+                <p>Explore algorithms for finding shortest paths or minimum spanning trees in networks, including:</p>
                 <ul>
-                    <li><span class="highlight">Dijkstra’s Algorithm</span></li>
-                    <li><span class="highlight">Floyd-Warshall Algorithm</span></li>
-                    <li><span class="highlight">Prim’s Algorithm</span></li>
-                    <li><span class="highlight">Bellman-Ford Algorithm</span></li>
+                    <li><span class="highlight">Dijkstra’s Algorithm</span>: Finds the shortest path between nodes in a graph, which may represent, for example, road networks.</li>
+                    <li><span class="highlight">Floyd-Warshall Algorithm</span>: Computes shortest paths between all pairs of nodes in a weighted graph.</li>
+                    <li><span class="highlight">Prim’s Algorithm</span>: Finds a minimum spanning tree for a weighted undirected graph, ensuring all vertices are connected with the minimum total edge weight.</li>
+                    <li><span class="highlight">Bellman-Ford Algorithm</span>: Computes shortest paths from a single source vertex to all other vertices in a weighted graph, even with negative weights.</li>
                 </ul>
-                <p>These algorithms have practical applications in fields like GPS navigation, internet routing, and network optimization.</p>
+                <p>These algorithms have practical applications in GPS navigation, internet routing, and network optimization, where efficient pathfinding and network design are crucial.</p>
             </div>
         </div>
 
@@ -116,10 +117,10 @@
             <p class="section-title">5. Real-World Applications and Theory:</p>
             <div class="section-content">
                 <ul>
-                    <li>Connect theoretical concepts to practical scenarios by solving everyday problems using efficient algorithms.</li>
-                    <li>Understand how these algorithms are foundational to the functioning of computers and software.</li>
+                    <li>Apply theoretical concepts to practical scenarios by solving real-world problems using efficient algorithms, such as optimizing delivery routes, scheduling tasks, and managing resources.</li>
+                    <li>Understand the foundational role of these algorithms in computer systems and software, including their use in databases, operating systems, and artificial intelligence.</li>
                 </ul>
-                <p>This course serves as a stepping stone in understanding how efficient algorithm design powers modern computing and helps solve complex, real-world problems.</p>
+                <p>This course provides a comprehensive understanding of how efficient algorithm design underpins modern computing and addresses complex, real-world challenges, preparing students for advanced studies and professional careers in computer science and related fields.</p>
             </div>
         </div>
     </div>
